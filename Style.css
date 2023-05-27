@@ -100,7 +100,7 @@
     text-align: left;
     background: #000000;
     color: #FDB813;
-    background-image: url("/Images/gaming-01.jpg"); max-width: 100%;
+    background-image: url("./images/gaming-01.jpg"); max-width: 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;  
     background-size: cover;
