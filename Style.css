@@ -12,7 +12,7 @@
   }
 
   ::-webkit-scrollbar-thumb{
-    background: #FDB813;
+    background: #fd13bb;
     border-radius: 6px;
   }
 
@@ -99,13 +99,13 @@
     padding: 270px;
     text-align: left;
     background: #000000;
-    color: #FDB813;
+    color: #ff009d;
     background-image: url("./images/gaming-01.jpg"); max-width: 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;  
     background-size: cover;
   }
-  
+ 
   /* Increase the font size of the heading */
   .header-1 h1 {
     font-size: 60px;
@@ -114,6 +114,7 @@
   .header-1 p{
     font-size: xx-large;
     color: rgb(255, 255, 255);
+    text-shadow: 3px 3px red;
     
   }
 
@@ -121,7 +122,7 @@
     padding: 270px;
     text-align: left;
     background: #000000;
-    color: #FDB813;
+    color: #ff10d7;
     background-image: url("./images/final-2.jpg"); max-width: 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;  
@@ -135,12 +136,13 @@
 
   .header-2 p{
     font-size: xx-large;
-    color: rgb(255, 255, 255);
+    color: rgb(250, 250, 250);
+    text-shadow: 3px 3px red;
     
   }
   button {
-    background-color: transparent; 
-    color: #FDB813; 
+    background-color: rgb(66, 255, 28); 
+    color: #fd13b7; 
     border-radius: 8px; 
     padding: 6px 32px;
     font-size: 50px; 
@@ -149,7 +151,7 @@
   }
 
   .button-1:hover, .button-1:hover{
-    color: #fff;
+    color: #24ff21;
     outline: 0;
 
   }
@@ -159,14 +161,14 @@
     transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
   }
   .button-1:hover {
-    box-shadow: 0 0 40px 40px #fbe032 inset;
+    box-shadow: 0 0 40px 40px #000000 inset;
   }
 
   .header-3 {
     padding: 270px;
     text-align: left;
     background: #000000;
-    color: #FDB813;
+    color:#fd13b7;
     background-image: url("./images/final-3.jpg"); max-width: 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;  
@@ -180,7 +182,8 @@
 
   .header-3 p{
     font-size: xx-large;
-    color: rgb(255, 255, 255);
+    color: rgb(254, 254, 254);
+    text-shadow: 3px 3px red;
     
   }
 
@@ -203,7 +206,7 @@
     padding: 270px;
     text-align: left;
     background: #000000;
-    color: #FDB813;
+    color:#fd13b7;
     background-image: url("./images/final-4.jpg"); max-width: 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;  
@@ -218,6 +221,7 @@
   .header-4 p{
     font-size: xx-large;
     color: rgb(255, 255, 255);
+    text-shadow: 3px 3px red;
     
   }
 
@@ -240,7 +244,7 @@
     padding: 270px;
     text-align: left;
     background: #000000;
-    color: #FDB813;
+    color:#fd13b7;
     background: url("./images/final-5.jpg"); max-width: 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;  
@@ -255,6 +259,7 @@
   .header-5 p{
     font-size: xx-large;
     color: rgb(255, 255, 255);
+    text-shadow: 3px 3px red;
     
   }
 
@@ -280,9 +285,8 @@
   width: 100%;
   padding: 85px 10%;
   background-color: rgb(21, 21, 21);
-  color: #fff12a;
+  color:#5dfd13;
   display: flex;
-  
 } 
 
 .footer div{
@@ -291,7 +295,6 @@
 
 .first {
   flex-grow: 10;
-  
 }
 
 .second {
@@ -313,6 +316,7 @@
    text-decoration: none;
    color: rgb(255, 255, 255);
    margin-bottom: 10px;
+   font-weight: bold;
 
 }
 
@@ -328,18 +332,19 @@ form input{
   margin-top: 2px;
   margin-bottom: 41px;
   outline: none;
-  border: none;
+  border: 2px solid rgb(255, 51, 160);
 }
 
 form button{
-  border: 2px solid #fff;
+  border: 2px solid #ff199b;
+  color: #000000;
   border-radius: 30px;
   padding: 10px 30px;
   font-size: 15px;
   cursor: pointer ;
 }
 form button:hover, form button:focus{
-  color: #22ff00;
+  color:#fd13b7;
   outline: 0;
 
 }
@@ -360,5 +365,5 @@ form button:hover {
   font-size: 25px;
   margin: 12px;
   cursor: pointer;
-  color: rgb(255, 49, 49);
+  color: rgb(255, 41, 158);
 }
