@@ -1,18 +1,21 @@
+<!--Final Assessment: Website-->
+
+<!--Declaring the type of html-->
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head><!--This tag includes al the important information which is not dispalyed directly on the screen-->
   <meta name="viewport" content="width-device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="Style.css"><!-- Using link tag to link with the external spreadsheet-->
-  <script src="https://kit.fontawesome.com/51164da91e.js" crossorigin="anonymous"></script>
-</head>
-<style>
+  <title>ST: Popular</title><!--Title is the text dispalyed on the tab-->
+  <!--using style tag to make an internal stylesheet-->
+ <style>
+    /* styling the class called Games in body tag*/
     .Games {
         font-family: Arial, Helvetica, sans-serif;
         font-size: larger;
         color: aliceblue;
     }
-
+ 
+    /* styling the class mentioned as Games-head in the body tag*/
     .Games-head {
         font-family: Georgia, 'Times New Roman', Times, serif;
         font-size: 60px;
@@ -21,12 +24,14 @@
         color: rgb(255, 175, 28);
     }
 
+    /* styling the class mentioned as head-descript in the body tag*/
     .head-discript {
         text-align: center;
         font-weight: bold;
         font-size: 25px;
     }
 
+    /* styling the class called Game-imaghe in body tag*/
     .Game-image {
     align-items: center;
     margin: 0 auto;
@@ -36,25 +41,33 @@
     height: 60%;
     }
 
+    /* styling the class named for p tag in html*/
     .para {
       font-size: large;
       font-family: 'Courier New', Courier, monospace;
       text-align: center;
     }
+
+    /* styling the class called text-1 in body tag*/
     .text-1 {
       font-size: large;
       font-weight: bolder;
       font-family: 'Courier New', Courier, monospace;
       color: rgb(255, 175, 28);
     }
-</style>
+</style><!--ending the style tag-->
+<!--Linking with an external kit for icons-->
+<script src="https://kit.fontawesome.com/51164da91e.js" crossorigin="anonymous"></script>
+</head><!--ending the head tag-->
+<!--body tag includeas all the information that is displayed on the screen-->
 <body>
 
-  <div class="navbar">
-    <a href="#" class="logo" img="logo">
-      <img src="./images/final logo.jpg" alt="logo">
+  <div class="navbar"><!--using div tag with class tag to make it is easier to style in stylesheet-->
+    <a href="#" class="logo" img="logo"><!--using class for image-->
+      <img src="./images/final logo.jpg" alt="logo"><!--inserting image in the html documnet-->
     </a>
-    <ul>
+    <!--using ul li a tag which works like different containers his can help us while styling-->
+    <ul><!--target=_self tag is used, so when link is clicked it will open in the same tab not a differnt one-->
     <li><a target="_self" href="index.html"> Home</a></li><!-- Using class with active tag so the screen display this information-->
     <li><a target="_self" href="Games.html"> Games</a></li>
     <li><a target="_self" class="active" href="Popular.html"> Popular </a></li>
@@ -65,21 +78,25 @@
    </div>
 
 
-    <br><br><br>
+    <br><br><br><!--using br tag to break line-->
 
-    
+    <!--using div tag as a container with a class tag to make difference easily-->
     <div class="Games">
+      <!--using h1 and h2 tag with their respective classes to make difference in stylsheet-->
       <h1 class="Games-head">&nbsp;&nbsp;The Witcher III: Wild Hunt </h1>
       <h2 class="head-discript">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;May 18, 2015<br></h2><br>
-      <img src="./images/Final-popular-1.jpg" class="Game-image"><br><br>
+      <img src="./images/Final-popular-1.jpg" class="Game-image"><br><br><!--using img tag to insert image-->
+      <!--using p tag twice with different class tag to make difference in stylesheet-->
       <p class="text-1">&nbsp;Genre:&nbsp;Adventure, Action role-play, open-world.<br>&nbsp;Features:&nbsp;cloud saves, Multiplayer, Single Player, Controller Support.</p>
       <br><br><br>
       <p class="para">The game takes place in a fictional fantasy world based on Slavic mythology. Players control Geralt of Rivia, a monster slayer for hire known as a Witcher, and search for his adopted daughter, who is on the run from the otherworldly Wild Hunt.
       <br>Wild Hunt is an action role-playing game with a third-person perspective. Players control Geralt of Rivia, a monster slayer known as a Witcher.  </p>
       <br><br>
-  </div>
+  </div><!--ending the div container-->
 
+    <!--using div tag as a container with a class tag to make difference easily-->
     <div class="Games">
+      <!--using h1 and h2 tag with their respective classes to make difference in stylsheet-->
       <h1 class="Games-head">&nbsp;&nbsp;Elden Ring</h1>
       <h2 class="head-discript">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;February 25, 2022<br></h2><br>
       <img src="./images/Final-popular-2.jpg" class="Game-image"><br><br>
@@ -88,76 +105,91 @@
       <p class="para">Elden Ring takes place in the Lands Between, a fictional realm over which several demigods rule. It was previously ruled over by the immortal Queen Marika, who acted as keeper of the Elden Ring, a powerful force that manifested itself as the physical concept of order.
       <br>Elden Ring is a third-person perspective, action, role-playing game with a focus on combat and exploration. It includes elements that are similar to those in other FromSoftware-developed games such as the Dark Souls series, Bloodborne, and Sekiro: Shadows Die Twice.</p>
       <br><br>
-  </div>
+  </div><!--ending the div container-->
     <br><br>
-
+   
+    <!--using div tag as a container with a class tag to make difference easily-->
     <div class="Games">
+      <!--using h1 and h2 tag with their respective classes to make difference in stylsheet-->
       <h1 class="Games-head">&nbsp;&nbsp;Divinity: Original Sin II</h1>
       <h2 class="head-discript">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;September 14, 2017<br></h2><br>
-      <img src="./images/Final-popular-3.jpg" class="Game-image"><br><br>
+      <img src="./images/Final-popular-3.jpg" class="Game-image"><br><br><!--using img tag to insert image-->
+      <!--using p tag twice with different class tag to make difference in stylesheet-->
       <p class="text-1">&nbsp;Genre:&nbsp;Adventure, Action role-play, open-world, Shooting.<br>&nbsp;Features:&nbsp;cloud saves, Mass Multiplaying, Controller Support.</p>
       <br><br><br>
       <p class="para">Divinity: Original Sin II is a role-playing video game played from an isometric perspective. The player begins the game by selecting one of six pre-made characters with their own backstories, or creating a custom character and choosing their stats, race, gender and origin story.
       <br> The Player is captured by the Divine Order and sent to an island prison known as Fort Joy. On the way there, a gigantic Kraken Voidwoken attacks and sinks the ship, but the player character is saved by a mysterious voice, who calls the player "Godwoken".</p>
       <br><br>
-  </div>
+  </div><!--ending the div container-->
     <br><br>
 
+    <!--using div tag as a container with a class tag to make difference easily-->
     <div class="Games">
+      <!--using h1 and h2 tag with their respective classes to make difference in stylsheet-->
       <h1 class="Games-head">&nbsp;&nbsp;CyberPunk 2077</h1>
       <h2 class="head-discript">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;December 10, 2020<br></h2><br>
-      <img src="./images/Final-popular-4.jpg" class="Game-image"><br><br>
+      <img src="./images/Final-popular-4.jpg" class="Game-image"><br><br><!--using img tag to insert image-->
+      <!--using p tag twice with different class tag to make difference in stylesheet-->
       <p class="text-1">&nbsp;Genre:&nbsp;Adventure, Action role-play, Fighting, Shooting.<br>&nbsp;Features:&nbsp;cloud saves, Multiplayer, Competitive, Controller Support.</p>
       <br><br><br>
       <p class="para">Cyberpunk 2077 is an open-world, action-adventure story set in Night City, a megalopolis obsessed with power, glamour and body modification. You play as V, a mercenary outlaw going after a one-of-a-kind implant that is the key to immortality
       <br>The main story follows V's struggle as they deal with a mysterious cybernetic implant that threatens to overwrite their body with the personality and memories of a deceased celebrity only perceived by V; the two must work together to be separated and save V's life.</p>
       <br><br>
-  </div>
+  </div><!--ending the div container-->
     <br><br>
 
     <br><br>
+    <!--using div tag as a container with a class tag to make difference easily-->
     <div class="Games">
+      <!--using h1 and h2 tag with their respective classes to make difference in stylsheet-->
       <h1 class="Games-head">&nbsp;&nbsp;Pillars of Eternity</h1>
       <h2 class="head-discript">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;March 26, 2015<br></h2><br>
-      <img src="./images/Final-popular-5.jpg" class="Game-image"><br><br>
+      <img src="./images/Final-popular-5.jpg" class="Game-image"><br><br><!--using img tag to insert image-->
+      <!--using p tag twice with different class tag to make difference in stylesheet-->
       <p class="text-1">&nbsp;Genre:&nbsp;Adventure, Action role-play, open-world.<br>&nbsp;Features:&nbsp;cloud saves, Multiplayer, Achievements, Controller Support.</p>
       <br><br><br>
       <p class="para">The player character is a foreigner who arrives in the Dyrwood. Their caravan is hit by a mysterious storm that kills everyone but them. Taking refuge in a cave, the player character witnesses some cultists perform a ritual on a machine that can strip souls from their bodies.
       <br>Pillars of Eternity sees players assume the role of a character defined as a "Watcher", a person able to see and interact with the souls of people, viewing the memories of those deceased or communing with those who linger.</p>
       <br><br>
-  </div>
+  </div><!--ending the div container-->
     <br><br>
 
 
 
-
-    <footer>
-      <div class="footer">
-        <div class="first">
-            <h2>Follow up Links</h2>
-            <a target="_blank" href="https://www.ea.com/">Electronic Arts</a>
-            <a target="_blank" href="https://store.epicgames.com/en-US/">EPIC Games</a>
-            <a target="_blank" href="https://www.riotgames.com/en">RIOT Games</a>
-            <a target="_blank" href="https://www.activision.com/games">ACTIVISION</a>
-          </div>
-          <div class="second">
-            <h2>For more Information</h2>
-            <form>
-              <input type="email" placeholder="Your Email" required>
-              <br> 
-              <button type="submit">JOIN</button>
-            </form>
-        </div>
-        <div class="third">
-          <h2>Follow Us On</h2>
-          <div class="icons">
-            <i class="fab fa-instagram"></i>
-            <i class="fab fa-facebook"></i>
-            <i class="fab fa-twitter"></i>
-            <i class="fab fa-tiktok"></i>
-          </div>
-        </div>
-      </div>  
-    </footer>
-  </body>
-</html>
+<!--Using footer tag to insert footer in the html documnet-->
+<footer>
+  <!--using div tag with class tag to make a container and style it easily-->
+  <div class="footer">
+    <div class="first"><!--using div tag with class tag to make a container and style it easily-->
+      <h2>Follow up Links</h2><!--using h tag for heading in the footer-->
+      <!--Linking websites with target=_blank tag so links open in different tab-->
+      <a target="_blank" href="https://www.ea.com/">Electronic Arts</a>
+      <a target="_blank" href="https://store.epicgames.com/en-US/">EPIC Games</a>
+      <a target="_blank" href="https://www.riotgames.com/en">RIOT Games</a>
+      <a target="_blank" href="https://www.activision.com/games">ACTIVISION</a>
+    </div><!--closing the div container-->
+    <div class="second"><!--using div tag with class tag to make a container and style it easily-->
+      <h2>For more Information</h2><!--using h tag for heading in the footer-->
+      <!--using a form tag to create a form-->
+      <form>
+        <!--creating the form for the input of email address-->
+        <input type="email" placeholder="Your Email" required>
+        <br> 
+        <!--using button tag to create a submit button-->
+        <button type="submit">JOIN</button>
+      </form><!--closing the form ytag-->
+    </div><!--closing the div tag-->
+    <div class="third"><!--using div tag with class tag to make a container and style it easily-->
+      <h2>Follow Us On</h2><!--using h tag for heading in the footer-->
+      <div class="icons"><!--using div tag with class tag to make a container and style it easily-->
+        <!--icons from a website-->
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-tiktok"></i>
+      </div><!--closing div tag-->
+    </div><!--closing div tag-->
+   </div>  <!--closing div tag-->
+  </footer><!-- closing footer tag-->
+ </body><!--closing body tag-->
+</html><!--closing the html documnet-->

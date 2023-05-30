@@ -1,11 +1,15 @@
+<!--Final Assessment: Website-->
+
+<!--Declaring the type of html-->
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head><!--This tag includes al the important information which is not dispalyed directly on the screen-->
   <meta name="viewport" content="width-device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="Style.css"><!-- Using link tag to link with the external spreadsheet-->
-  <script src="https://kit.fontawesome.com/51164da91e.js" crossorigin="anonymous"></script>
+  <title>ST: Join Us</title><!--Title is the text dispalyed on the tab-->
+  <link rel="stylesheet" href="Style.css"><!-- Using link tag to link with the external stylesheet-->
+  <!--using style tag to make internal stylesheet-->
   <style>
+    /* styling the class caleed head1 in the body tag*/
     .head1 {
       font-size: 75px;
       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -13,13 +17,15 @@
       color: aliceblue;
       text-align: center;
     }
-
+    
+    /* styling the class name img in the body tag*/
     .img {
       height: 55%;
       width: 55%;
       float: right;
     }
 
+    /* styling the class mentioned as join-us in the body tag*/
     .Join-us {
       width: 100%; 
       padding: 12px; 
@@ -33,77 +39,93 @@
       text-align: left;
     }
     
-
-
-  </style>
-</head>
+  </style><!--Ending the style tag-->
+  <!--Linking with an external kit for icons-->
+  <script src="https://kit.fontawesome.com/51164da91e.js" crossorigin="anonymous"></script>
+</head><!--closing the head tag-->
+<!--using body tag, it includes all the information which is directly displayed on the screen-->
 <body>
 
-  <div class="navbar">
-    <a href="#" class="logo" img="logo">
-      <img src="./images/final logo.jpg" alt="logo">
+  <div class="navbar"><!--using div tag with class tag to make it is easier to style in stylesheet-->
+    <a href="#" class="logo" img="logo"><!--using class for image-->
+      <img src="./images/final logo.jpg" alt="logo"><!--inserting image in the html documnet-->
     </a>
-    <ul>
+    <!--using ul li a tag which works like different containers his can help us while styling-->
+    <ul><!--target=_self tag is used, so when link is clicked it will open in the same tab not a differnt one-->
     <li><a target="_self" href="index.html"> Home</a></li><!-- Using class with active tag so the screen display this information-->
     <li><a target="_self" href="Games.html"> Games</a></li>
     <li><a target="_self" href="Popular.html"> Popular </a></li>
     <li><a target="_self" href="Wallpapers.html"> Wallpapers</a></li> 
     <li><a target="_self" href="About Us .html"> About Us</a></li>
     </ul>
-   </div>
-   <br><br><br><br><br><br>
+   </div><!--closing the div container-->
+
+   <br><br><br><br><br><br><!--using br tag to break line-->
+
+   <!--using h tag for heading with class tag to make style easily in stylesheet-->
    <h1 class="head1">Join Us</h1>
-   <div class="Join-us">
-    <img class="img" src="./images/about.png">
-    <h2 class="text1">Please fill the following form to make your appointment.</h2>
-    <form>
+   <div class="Join-us"><!--using div tag with class tag to mae difference easily in stylesheet-->
+    <img class="img" src="./images/about.png"><!--using img tag to insert image-->
+    <h2 class="text1">Please fill the following form to make your appointment.</h2><!--using h2 tag to make a heading that is smaller than h1 tag-->
+    <form><!--using the form tag to insert formin the document-->
       <br>
+      <!--form option for first name-->
       <label for="fname">First Name:&nbsp;&nbsp;</label>
       <input type="text" name="fname" placeholder="First Name....">
       <br>
+      <!--form option for last name-->
       <label for="lname">Last Name:&nbsp;&nbsp;</label>
       <input type="text" name="lname" placeholder="Last Name....">
       <br>
+      <!--form option for mail-->
       <label for="mail">Your Email:&nbsp;&nbsp;</label>
       <input type="email" placeholder="Your Email" required>
       <br>
+      <!--form option for message-->
        <label for="message">Your Reason:</label>
        <input type="text" placeholder="Your Reason For Joining Us:" required>
       <br> 
+      <!--using button tag for creating button of submit type-->
       <button class="join-button" type="submit">JOIN</button>
     </form>
   </div>
 
 
 
-
+<!--Using footer tag to insert footer in the html documnet-->
 <footer>
+  <!--using div tag with class tag to make a container and style it easily-->
   <div class="footer">
-    <div class="first">
-      <h2>Follow up Links</h2>
+    <div class="first"><!--using div tag with class tag to make a container and style it easily-->
+      <h2>Follow up Links</h2><!--using h tag for heading in the footer-->
+      <!--Linking websites with target=_blank tag so links open in different tab-->
       <a target="_blank" href="https://www.ea.com/">Electronic Arts</a>
       <a target="_blank" href="https://store.epicgames.com/en-US/">EPIC Games</a>
       <a target="_blank" href="https://www.riotgames.com/en">RIOT Games</a>
       <a target="_blank" href="https://www.activision.com/games">ACTIVISION</a>
-    </div>
-    <div class="second">
-      <h2>For more Information</h2>
+    </div><!--closing the div container-->
+    <div class="second"><!--using div tag with class tag to make a container and style it easily-->
+      <h2>For more Information</h2><!--using h tag for heading in the footer-->
+      <!--using a form tag to create a form-->
       <form>
+        <!--creating the form for the input of email address-->
         <input type="email" placeholder="Your Email" required>
         <br> 
+        <!--using button tag to create a submit button-->
         <button type="submit">JOIN</button>
-      </form>
-    </div>
-    <div class="third">
-      <h2>Follow Us On</h2>
-      <div class="icons">
+      </form><!--closing the form ytag-->
+    </div><!--closing the div tag-->
+    <div class="third"><!--using div tag with class tag to make a container and style it easily-->
+      <h2>Follow Us On</h2><!--using h tag for heading in the footer-->
+      <div class="icons"><!--using div tag with class tag to make a container and style it easily-->
+        <!--icons from a website-->
         <i class="fab fa-instagram"></i>
         <i class="fab fa-facebook"></i>
         <i class="fab fa-twitter"></i>
         <i class="fab fa-tiktok"></i>
-      </div>
-    </div>
-   </div>  
-  </footer>
- </body>
-</html>
+      </div><!--closing div tag-->
+    </div><!--closing div tag-->
+   </div>  <!--closing div tag-->
+  </footer><!-- closing footer tag-->
+ </body><!--closing body tag-->
+</html><!--closing the html documnet-->

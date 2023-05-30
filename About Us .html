@@ -1,18 +1,22 @@
+<!--Final Assessment: Website-->
+
+<!--Declaring the type of html-->
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head><!--This tag includes al the important information which is not dispalyed directly on the screen-->
   <meta name="viewport" content="width-device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="Style.css"><!-- Using link tag to link with the external spreadsheet-->
-  <script src="https://kit.fontawesome.com/51164da91e.js" crossorigin="anonymous"></script>
-</head>
+  <title>ST: About us</title><!--Title is the text dispalyed on the tab-->
+  <link rel="stylesheet" href="Style.css"><!-- Using link tag to link with the external stylesheet-->
+  <!--using style tag to make internal stylesheet-->
 <style>
+  /* styling the class mentioned as img in the body*/
   .img {
     height: 70%;
     width: 50%;
     float: left;
   }
 
+  /* styling the class named as heading in the body tag*/
   .heading {
     font-size: 100px;
     font-weight: bolder;
@@ -21,6 +25,7 @@
     
   }
 
+  /* styling the class mentioned as descript in body tag*/
   .descript {
     font-size: xx-large;
     font-weight: bold;
@@ -28,6 +33,7 @@
     color: red;
   }
   
+  /* styling the class as mentioned in the body tag*/
   .para-text {
     color: aliceblue;
     font-size: large;
@@ -36,20 +42,26 @@
     text-align: right;
   }
 
+  /* styling the button class mentioned in the body tag*/
   .button-1 {
     float: right;
     font-size: xx-large;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
     font-weight: bold;
   }
-</style>
+</style><!--ending the style tag-->
+<!--Linking with an external kit for icons-->
+<script src="https://kit.fontawesome.com/51164da91e.js" crossorigin="anonymous"></script>
+</head><!--ending the head tag-->
+<!--using body tag, this tag includews all the information which is diosplayed on the screen-->
 <body>
 
-  <div class="navbar">
-    <a href="#" class="logo" img="logo">
-      <img src="./images/final logo.jpg" alt="logo">
+  <div class="navbar"><!--using div tag with class tag to make it is easier to style in stylesheet-->
+    <a href="#" class="logo" img="logo"><!--using class for image-->
+      <img src="./images/final logo.jpg" alt="logo"><!--inserting image in the html documnet-->
     </a>
-    <ul>
+    <!--using ul li a tag which works like different containers his can help us while styling-->
+    <ul><!--target=_self tag is used, so when link is clicked it will open in the same tab not a differnt one-->
     <li><a target="_self" href="index.html"> Home</a></li><!-- Using class with active tag so the screen display this information-->
     <li><a target="_self" href="Games.html"> Games</a></li>
     <li><a target="_self" href="Popular.html"> Popular </a></li>
@@ -59,52 +71,61 @@
     <a target="_self" href="Join us.html" class="right">Join us</a>
    </div>
 
-   <br><br><br><br><br>
+   <br><br><br><br><br><!--using break tag to beak a line-->
 
+   <!--using div tag as a container with a class tag to make diffeence easily in stylesheet-->
    <div class="about">
-    <img class="img" src="./images/about.png">
-   <h1 class="heading"> Our Story</h1>
-   <h2 class="descript"> ST Gaming</h2>
+    <img class="img" src="./images/about.png"><!--using img tag to insert image-->
+   <h1 class="heading"> Our Story</h1><!--using h1 tag for headng one, with class tag to make difference easily-->
+   <h2 class="descript"> ST Gaming</h2><!--using h2 tag for heading 2, with class tag to make difference easily-->
+   <!--using p tag with a class tag to make difference easily-->
    <p1 class="para-text">You are welcomed to ST Gaming, this is the place where Our and Your gaming Knowledge meets it's excitement and community! We are a team of passionate gamers who are eager to represent and show off our knowledge about games, which is very comprehencive and accurate. We know all about ypur favourite games.</p1>
    <br><p2 class="para-text">As avid gamers ourselves, we often found it challenging to keep up with the rapidly evolving gaming landscape. We realized that there was a need for a reliable and trustworthy platform that could serve as a go-to resource for gamers seeking information, insights, and a sense of belonging.</p2>
   <br><p3 class="para-text">We embarked on a mission to create ST Gaming, a hub that combines our passion for gaming with a commitment to delivering valuable content. Our team consists of experienced gamers, industry enthusiasts, and tech-savvy individuals who are dedicated to curating the best gaming resources for you.</p3>
    <br><br><br>
+   <!--insertng button using button tag to create button and href tag to link it-->
   <a target="_self" href="index.html">
     <button class="button-1">
     Let's go &#8594;
     </button></a>
-   </div>
+   </div><!--closing the div container-->
 
 
 
-
-   <footer>
-    <div class="footer">
-      <div class="first">
-        <h2>Follow up Links</h2>
-        <a target="_blank" href="https://www.ea.com/">Electronic Arts</a>
-        <a target="_blank" href="https://store.epicgames.com/en-US/">EPIC Games</a>
-        <a target="_blank" href="https://www.riotgames.com/en">RIOT Games</a>
-        <a target="_blank" href="https://www.activision.com/games">ACTIVISION</a>
-      </div>
-      <div class="second">
-        <h2>For more Information</h2>
-        <form>
-          <input type="email" placeholder="Your Email" required>
-          <br> 
-          <button type="submit">JOIN</button>
-        </form>
-      </div>
-      <div class="third">
-        <h2>Follow Us On</h2>
-        <div class="icons">
-          <i class="fab fa-instagram"></i>
-          <i class="fab fa-facebook"></i>
-          <i class="fab fa-twitter"></i>
-          <i class="fab fa-tiktok"></i>
-        </div>
-      </div>
-     </div>  
-    </footer>
-  </body>
-</html>
+<!--Using footer tag to insert footer in the html documnet-->
+<footer>
+  <!--using div tag with class tag to make a container and style it easily-->
+  <div class="footer">
+    <div class="first"><!--using div tag with class tag to make a container and style it easily-->
+      <h2>Follow up Links</h2><!--using h tag for heading in the footer-->
+      <!--Linking websites with target=_blank tag so links open in different tab-->
+      <a target="_blank" href="https://www.ea.com/">Electronic Arts</a>
+      <a target="_blank" href="https://store.epicgames.com/en-US/">EPIC Games</a>
+      <a target="_blank" href="https://www.riotgames.com/en">RIOT Games</a>
+      <a target="_blank" href="https://www.activision.com/games">ACTIVISION</a>
+    </div><!--closing the div container-->
+    <div class="second"><!--using div tag with class tag to make a container and style it easily-->
+      <h2>For more Information</h2><!--using h tag for heading in the footer-->
+      <!--using a form tag to create a form-->
+      <form>
+        <!--creating the form for the input of email address-->
+        <input type="email" placeholder="Your Email" required>
+        <br> 
+        <!--using button tag to create a submit button-->
+        <button type="submit">JOIN</button>
+      </form><!--closing the form ytag-->
+    </div><!--closing the div tag-->
+    <div class="third"><!--using div tag with class tag to make a container and style it easily-->
+      <h2>Follow Us On</h2><!--using h tag for heading in the footer-->
+      <div class="icons"><!--using div tag with class tag to make a container and style it easily-->
+        <!--icons from a website-->
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-tiktok"></i>
+      </div><!--closing div tag-->
+    </div><!--closing div tag-->
+   </div>  <!--closing div tag-->
+  </footer><!-- closing footer tag-->
+ </body><!--closing body tag-->
+</html><!--closing the html documnet-->
